@@ -1,6 +1,7 @@
 # scroll
-scroll up: CTRL-Y CTRL-U CTRL-B
-scroll down: CTRL-E CTRL-D CTRL-F
+one line: ^E ^Y
+half page: ^D ^U
+full page: ^F ^B
 
 # motion
 left-right: h l 0 ^ $ f F t T

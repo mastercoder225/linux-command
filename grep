@@ -1,0 +1,14 @@
+# meta-characters
+$()*+.?[\^{|
+
+# nonprintable characters
+\a\e\f\n\r\t\v
+
+# [not] match one of many characters
+[abc] [^abc] [a-fA-F0-9] [^a-fA-F0-9]
+
+# shorthand characters
+\d=[0-9]       \D=[^0-9]
+\w=[a-zA-Z0-9] \W=[^a-zA-Z0-9]
+\s= \S=
+
