@@ -1,7 +1,23 @@
-# git config
+# 配置用户名和邮箱
 git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
+git config --global user.email "your_email@example.com"
+
+# 配置文本编辑器
 git config --global core.editor vim
+
+# 配置常用的别名
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
+# 初始化仓库
+git init
+
+# 克隆仓库
+git clone git@github.com:mastercoder225/linux-command.git
+git clone git@github.com:mastercoder225/linux-command.git linux-command-copy
+
 
 git config --list
 git config user.name
@@ -33,10 +49,7 @@ git fetch origin
 git push origin master
 
 # git alias
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
+
 
 # git branch
 git branch
