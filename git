@@ -37,6 +37,12 @@ git rm FileToRemove.txt
 git rm FileToRemove.txt -f
 git rm FileToRemove.txt --cached
 
+# 移动文件
+git mv File.txt NewDirectory
+
+# 重命名文件
+git mv OldName.txt NewName.txt
+
 
 
 git config --list
