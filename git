@@ -19,14 +19,13 @@ git clone git@github.com:mastercoder225/linux-command.git
 git clone git@github.com:mastercoder225/linux-command.git linux-command-copy
 
 # 跟踪新文件
-git add new_file.txt
+git add new.txt
 
 # 暂存已修改文件
-git add ModifiedFile.txt
+git add modified.txt
 
 # 标记冲突文件为已解决状态
-git add ConflictFile.txt
-
+git add conflict.txt
 
 # 提交更新
 git commit
@@ -34,12 +33,16 @@ git commit -m "fix"
 git commit -a -m "fix"
 
 # 移除文件
-git rm FileToRemove.txt
-git rm FileToRemove.txt -f
-git rm FileToRemove.txt --cached
+git rm remove.txt
+git rm remove.txt -f
+git rm remove.txt --cached
 
 # 移动文件
-git mv File.txt NewDirectory
+git mv file.txt directory
 
 # 重命名文件
-git mv OldName.txt NewName.txt
+git mv old.txt new.txt
+
+# 取消暂存的文件
+git reset HEAD -- staged.txt
+
