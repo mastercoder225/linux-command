@@ -1,6 +1,6 @@
 # 配置用户名和邮箱
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name "username"
+git config --global user.email "username@example.com"
 
 # 配置文本编辑器
 git config --global core.editor vim
@@ -19,7 +19,7 @@ git clone git@github.com:mastercoder225/linux-command.git
 git clone git@github.com:mastercoder225/linux-command.git linux-command-copy
 
 # 跟踪新文件
-git add NewFile.txt
+git add new_file.txt
 
 # 暂存已修改文件
 git add ModifiedFile.txt
@@ -42,49 +42,3 @@ git mv File.txt NewDirectory
 
 # 重命名文件
 git mv OldName.txt NewName.txt
-
-
-
-git config --list
-git config user.name
-
-# git help
-git help branch
-
-# git commit
-git add file.txt
-git commit -m "add file.txt"
-
-# git status
-git status
-git status -s
-
-# git remote
-git remote
-git remote -v
-git remote show origin
-
-git remote add origin git@github.com:mastercoder225/linux-command.git
-
-git fetch origin
-git push origin master
-
-# git alias
-
-
-# git branch
-git branch
-git branch -v
-git branch -vv
-git branch --merged
-git branch --no-merged
-git checkout -b bugfix
-git checkout --track origin/master
-git checkout -b bugfix origin/master
-git push origin --delete bugfix
-git checkout master
-git merge bugfix
-git branch -d bugfix
-
-# git rebase
-
