@@ -33,7 +33,9 @@ git commit -m "fix"
 git commit -a -m "fix"
 
 # 移除文件
-
+git rm FileToRemove.txt
+git rm FileToRemove.txt -f
+git rm FileToRemove.txt --cached
 
 
 
