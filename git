@@ -18,17 +18,30 @@ git init
 git clone git@github.com:mastercoder225/linux-command.git
 git clone git@github.com:mastercoder225/linux-command.git linux-command-copy
 
+# 跟踪新文件
+git add NewFile.txt
+
+# 暂存已修改文件
+git add ModifiedFile.txt
+
+# 标记冲突文件为已解决状态
+git add ConflictFile.txt
+
+# 提交更新
+git commit
+git commit -m "fix"
+git commit -a -m "fix"
+
+# 移除文件
+
+
+
 
 git config --list
 git config user.name
 
 # git help
 git help branch
-
-# git repository
-git init
-git clone git@github.com:mastercoder225/linux-command.git
-git clone git@github.com:mastercoder225/linux-command.git my-linux-command
 
 # git commit
 git add file.txt
