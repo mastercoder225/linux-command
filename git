@@ -88,5 +88,9 @@ git branch -v
 git branch --merged
 git branch --no-merged
 
+# 查看远程分支信息
+git ls-remote
+git ls-remote origin
+
 
 
