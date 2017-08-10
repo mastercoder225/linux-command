@@ -43,6 +43,50 @@ git mv file.txt directory
 # 重命名文件
 git mv old.txt new.txt
 
-# 取消暂存的文件
+# 取消文件暂存
 git reset HEAD -- staged.txt
+
+# 取消文件修改
+git checkout -- modified.txt
+
+# 查看远程仓库信息
+git remote
+git remote -v
+git remote show origin
+
+# 添加远程仓库
+git remote add origin git@github.com:mastercoder225/linux-command.git
+
+# 从远程仓库拉取信息
+git fetch origin
+
+# 推送分支到远程仓库
+git push origin master
+
+# 修改远程仓库引用名
+git remote rename origin repo
+
+# 移除远程仓库
+git remote rm origin
+
+# 创建新分支
+git branch test
+git checkout -b test
+
+# 切换分支
+git checkout master
+
+# 合并分支
+git merge test
+
+# 删除分支
+git branch -d test
+
+# 查看分支信息
+git branch
+git branch -v
+git branch --merged
+git branch --no-merged
+
+
 
