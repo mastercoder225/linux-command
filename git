@@ -72,6 +72,7 @@ git remote rm origin
 # 创建新分支
 git branch test
 git checkout -b test
+git checkout -b test origin/test
 
 # 切换分支
 git checkout master
@@ -91,6 +92,9 @@ git branch --no-merged
 # 查看远程分支信息
 git ls-remote
 git ls-remote origin
+
+# 跟踪远程分支
+git checkout --track origin/test
 
 
 
