@@ -73,6 +73,7 @@ git remote rm origin
 git branch test
 git checkout -b test
 git checkout -b test origin/test
+git checkout --track origin/test
 
 # 切换分支
 git checkout master
@@ -93,8 +94,20 @@ git branch --no-merged
 git ls-remote
 git ls-remote origin
 
-# 跟踪远程分支
-git checkout --track origin/test
+# 设置本地分支跟踪远程分支
+git branch -u origin/test
+
+# 查看本地分支跟踪信息
+git branch -vv
+
+# 拉取远程仓库信息
+git fetch
+
+# 变基
+git rebase test
+
+
+
 
 
 
