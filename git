@@ -100,14 +100,5 @@ git branch -u origin/test
 # 查看本地分支跟踪信息
 git branch -vv
 
-# 拉取远程仓库信息
-git fetch
-
 # 变基
 git rebase test
-
-
-
-
-
-
