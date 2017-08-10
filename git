@@ -11,6 +11,15 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
+# 查看配置信息
+git config user.name
+git config --list
+man git-branch
+
+# 帮助
+git help branch
+git branch --help
+
 # 初始化仓库
 git init
 
